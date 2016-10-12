@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ body{
+   background: url('wallpaper.jpeg');
+   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+ }
+
+ .mess {
+   font-size: 20px;
+ }
+
+ .booyah-box {
+   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+   box-shadow: 1px 1px 2px 0 #d0d0d0;
+   background: #fff;
+   border: 1px solid #ccc;
+   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .booyah-box h2, .booyah-box h1 {
+   margin:10px;
+ }
+
+ .clr {
+   clear: both;
+ }
+
+.size {
+  height: 400px;
+  width: 400px;
+}
+
+.size-bigger {
+  height: 400px;
+  width: 600px;
+}
